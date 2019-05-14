@@ -1,0 +1,103 @@
+ul{
+  top: 0;
+  right: 0;
+  left: 0;
+
+
+  margin: -8px;
+  width: 100%;
+  min-width: 1024px;
+  height: 60px;
+
+  background: black;
+  color:white;
+   list-style-type: none;
+
+}
+#list{
+  float:right;
+  position:relative;
+  right: 30px;
+
+  letter-spacing: -.01em;
+}
+#list a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#info{
+
+  max-width: 900px;
+  max-height: 500px;
+  margin: 0;
+  text-align: center;
+  border: 5px solid grey;
+  line-height: 2.0;
+  padding: 0px 3px 3px 5px;
+  position:relative;
+  left: 300px;
+  top: 100px;
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.44);
+-moz-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.44);
+box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.44);
+background: white;
+overflow-x:auto;
+
+
+}
+#about{
+  float:left;
+  font-size: 30px;
+  position: relative;
+  top:12px;
+
+}
+
+ol{
+   list-style-type: none;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  background-image: url(pictures/back.jpg);
+  overflow-x: hidden;
+
+}
+table {
+    font-size: 30px;
+    margin-top: 240px;
+}
+td {
+  text-align: center;
+} /*center for each word */
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 10px;
+}
+
+table{
+font-size:30px;
+position: relative;
+top: -140px;
+}
+#time{
+
+  text-align:center;
+
+}
+
+#prayertime{ /* position text */
+font-size:65px;
+position: relative;
+text-align: center;
+top: 60px;
+
+}
+img{
+  height:250px;
+   width:400px;
+}
